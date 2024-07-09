@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyproject-toml"
+version = "0.1.0"
+description = ""
+authors = ["ExtymAndriy <150171957+ExtymAndriy@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pyproject"}]
+
+[tool.poetry.dependencies]
+python = "^3.10.8"
+skip32 = "^1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
